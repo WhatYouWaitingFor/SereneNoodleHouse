@@ -170,13 +170,9 @@ nav {
 
 @media only screen and (width < 900px) {
 
-  section,
-  nav {
-    max-width: 90%;
-  }
+  .nav__logo a {
+    font-size: 17px;
 
-  .link a:not(#nav__btn) {
-    display: none;
   }
 
   .container {
