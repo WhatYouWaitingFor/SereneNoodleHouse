@@ -275,6 +275,18 @@ footer {
     transition: all .5s ease-in-out;
   }
 
+  button {
+    padding: 0.5rem 2rem;
+    color: white !important;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    border: none;
+  }
+
+  button:hover {
+    background-color: #3e6441;
+  }
+
   header ul li a {
     color: var(--nav-text-color);
   }
